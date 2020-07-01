@@ -1,0 +1,51 @@
+nav {
+  padding-top: 80px;
+}
+
+.descrizione {
+    padding: 0 20px;
+}
+
+.leaflet-top.leaflet-left{
+    z-index: 998;
+}
+
+.altezza {
+  height: 300px;
+}
+
+.invisible {
+  display: none;
+}
+
+*  {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#slider-rooms {
+  width: 80%;
+}
+#slider-beds {
+  width: 100%;
+}
+#slider-bath {
+  width: 100%;
+}
+
+// .column {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   flex-direction: column;
+// }
+
+nav ol li {
+  background-color: #e9ecef;
+}
+@media (max-width: 960px) {
+  .none {
+    display: none;
+  }
+}
